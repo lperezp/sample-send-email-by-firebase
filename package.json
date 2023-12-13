@@ -1,0 +1,19 @@
+{
+  "name": "sample-send-email-by-firebase",
+  "version": "1.0.0",
+  "description": "Composes and sends an email from Cloud Firestore.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "lperezp <luiseperezp.10@gmail.com> (https://lperezp.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
